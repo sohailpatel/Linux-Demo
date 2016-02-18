@@ -1,6 +1,6 @@
 date
 declare -i x=0;
-for file in example/*.txt;
+for file in example/*;
 do
 	if [ $x -eq 4 ]; then
 		break
